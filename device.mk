@@ -139,3 +139,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Privileged app permissions
 PRODUCT_COPY_FILES += \
     device/google/taimen/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/../taimen/ubuntu/display.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
