@@ -142,3 +142,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/../taimen/ubuntu/display.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
+
+# UT wireless display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ubuntu.widi.supported=1
